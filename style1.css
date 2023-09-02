@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+    }
+
+    /*nav{
+    background-color: blue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+} */
+    .cell {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url('https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/339c1909-7a07-43b5-9e9f-48ad732595de/NG-en-20230306-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+        /* background-image: url(../Image/bg.jpg); */
+        width: 100%;
+        /* height: auto; */
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 95vh;
+        padding-top: 30px;
+    }
+
+    h1 {
+        color: #d50d14
+            /*rgb(213,13,20)*/
+        ;
+        font-style: oblique;
+        font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+        font-size: 38px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 19px;
+        height: 100px;
+        padding-left: 10px;
+        padding-right: 100px;
+        padding-bottom: 150px;
+    }
+
+    nav a {
+        margin: 0;
+        padding: 4px;
+        /* padding-bottom: 20px; */
+        padding-left: 15px;
+        margin-left: 40px;
+        width: 80px;
+        height: 28px;
+        color: white;
+        background-color: red;
+        /* text-align: center; */
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    nav a:hover {
+
+        background-color: rgb(167, 12, 12);
+        transition-duration: 0.5s;
+    }
+
+    h2 {
+        color: white;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    main {
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .fad {
+        font-size: 49px;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    form {
+        align-items: center;
+    }
+
+    input {
+        padding: 16px 0px;
+        padding-left: 15px;
+        margin: 10px 0px 10px 50px;
+        width: 400px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 7px;
+        /* background-color: white; */
+        height: 10vh;
+        background: transparent;
+    }
+
+    button {
+        background-color: red;
+        width: 120px;
+        height: 10vh;
+        /* padding: 10px 0px; */
+        /* padding-top: 5px; */
+        margin-left: -3px;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 7px;
+        background: red;
+        color: white;
+    }
+
+    .ltr {
+        display: flex;
+        background-color: black;
+        margin-top: -25px;
+        padding-left: 20px;
+        padding-top: 20px;
+        /* background-size: cover; */
+        width: auto;
+        height: 80vh;
+        color: aliceblue;
+        font-size: xx-large;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nul {
+        font-size: 49px;
+    }
+
+    .xzs {
+        display: flex;
+        background-color: black;
+        margin-top: -25px;
+        /* padding-left: 200px; */
+        padding-top: 15px;
+        padding-right: 20px; 
+        /* background-size: cover; */
+        width: auto;
+        height: auto;
+        color: aliceblue;
+        font-size: xx-large;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    .nbv {
+        font-size: 49px;
+    }
+
+    .den {
+        background-color: black;
+        color: white;
+        padding-left: 100px;
+        /* padding-bottom: 100px; */
+        padding-top: 100px;
+        height: auto;
+        /* font-size: 20px; */
+    }
+
+    .den h2 {
+        font-size: 50px;
+    }
+
+    .alm {
+        display: flex;
+        background-color: black;
+        color: white;
+        justify-content: space-between;
+        margin-top: -25px;
+        /* padding-left: 200px; */
+        /* padding-right: 220px; */
+        padding-top: 30px;
+        width: auto;
+        height: auto;
+
+    }
+
+    .bam {
+        color: white;
+    }
+
+    .tar {
+        background-color: black;
+        margin-top: -25px;
+        padding-left: 100px;
+        padding-right: 150px;
+        width: auto;
+        height: auto;
+    }
+
+    /* details[open] {
+    box-shadow: 0 2px 5px 0 #666;
+} */
+    * {
+        box-sizing: border-box;
+    }
+
+    /* img {
+   max-width: 100%;
+ } */
+
+    .details-wrapper {
+        width: 45vw;
+        margin: 0 auto;
+        background-color: #BFBFBF;
+        /* box-shadow:0 -1px 1px 5px #BFBFBF; */
+    }
+
+    details {
+        padding: .5rem;
+        font: 1rem/1.2 sans-serif;
+    }
+
+    summary {
+        padding: .25rem 1rem;
+        background-color: rgb(57, 53, 53);
+        font: bold 1.25rem/2 sans-serif;
+        color: rgb(251, 249, 245);
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        list-style: none;
+        /* Triangle not shown */
+    }
+
+    /* Triangle not shown - Style for Webkit-Browser */
+    summary::-webkit-details-marker {
+        display: none;
+    }
+
+    summary::before {
+        padding-right: .25rem;
+        content: '+ ';
+        /* Instead of Triangle closed */
+    }
+
+    details[open] summary::before {
+        padding-right: .25rem;
+        font-style: italic;
+        content: '- ';
+        /* Instead of Triangle open */
+    }
+
+    /* Styling the summary in case of open 'details' */
+    details[open] summary {
+        font-style: italic;
+    }
+
+    .details-content {
+        margin: 0;
+        padding: .25rem 1rem;
+        background-color: floralwhite;
+        color: rgb(97, 160, 211);
+    }
+
+    .details-content p {
+        font: 1.1rem/1.5 sans-serif;
+    }
+
+    details p {
+        background-color: #363131;
+        color: white;
+        padding-left: 5px;
+    }
+
+    summary:hover {
+        background-color: #666;
+        transition: 0.2s;
+    }
+
+    .pol {
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .wap {
+        padding-top: 10px;
+        color: white;
+    }
+
+    .log {
+        display: flex;
+    }
+
+    .jul {
+        background-color: black;
+        padding-top: 20px;
+        font-size: 15px;
+        height: auto;
+        margin-top: -25px;
+        padding-top: 30px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .yup a {
+        color: darkgray;
+        padding-left: 145px;
+    }
+
+    .fks a {
+        color: darkgray;
+    }
+
+    .jdq a {
+        color: darkgray;
+    }
+
+    .nnp a {
+        color: darkgray;
+    }
+
+    .lop {
+        padding-left: 145px;
+        background: black;
+        height: 60px;
+    }
+
+    .lop select {
+        padding-bottom: 5px;
+        color: darkgrey;
+        background: black;
+        font-size: 17px;
+        border-radius: 7px;
+        width: 120px;
+        padding-left: 10px;
+    }
+
+    .vir {
+        padding-left: 160px;
+        background: black;
+        color: darkgray;
+        margin: -17px;
+        padding-top: 10px;
+        height: 70px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
